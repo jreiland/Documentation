@@ -54,12 +54,12 @@ storage, including attempts to circumvent the automatic file purge
 policy, may result in loss of access to Research Computing resources.
 
 ### Filesystems Reference Table
-| /home (2GB)| /projects (250GB) | /scratch/alpine (10TB)  |
-| ------------- |------------| -----|
-| Scripts, ssh keys, small important files/directories | Code, files, software installs | Output from running jobs, large files/databases |
-| Regularly backed up | Regularly backed up | **Not** backed up|
-| **Not** for sharing files | Suitable for sharing files| Suitable for sharing files |
-| **Not** for job output | **Not** for job output | Suitable for job output |
+|  | /home (2GB)| /projects (250GB) | /scratch/alpine (10TB)  |
+| -- | ------------- |------------| -----|
+| What is it meant to store? | Scripts, ssh keys, small important files/directories | Code, files, software installs | Output from running jobs, large files/databases |
+| Is it backed up? | Regularly backed up | Regularly backed up | **Not** backed up|
+| Does it support file sharing? | **Not** for sharing files | Suitable for sharing files| Suitable for sharing files |
+| Can it be used for job data? | **Not** for job output | **Not** for job output | Suitable for job output |
 
 
 
