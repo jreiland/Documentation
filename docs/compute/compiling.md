@@ -2,7 +2,7 @@
 
 Before compiling in the RC environment, begin a compile job by using the `acompile` command. Next, load the modules corresponding to the compiler, MPI version (if needed), and any third-party libraries required by your application. 
 
-```{tip
+```{tip}
 The load order should always be compiler first, MPI second, and third-party libraries last.
 ```
 
