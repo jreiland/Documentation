@@ -20,7 +20,7 @@ SMB support for individual PetaLibrary allocations is limited to CU Boulder cust
 Mounting on Mac is a relatively simple procedure and can be accomplished in a few steps:
 First, navigate to Finder and click “Connect to Server” under the “Go” menu:
 
-```{image} ./images_and_html_smbmac1.png
+```{image} ../images_and_html/smbmac1.png
 :alt: An image of the "Go" menu from the menu bar of Finder on a Mac. The bottom option, "Connect to Server..." is highlighted in blue.
 ```
 
@@ -29,7 +29,7 @@ In the `Server Address` field, provide the hostname to a RC's internal server ap
 smb://<RC-provided-hostname>/<your-pl-allocation>
 ```
 
-```{image} ./images_and_html/smbmac2.png
+```{image} ../images_and_html/smbmac2.png
 :alt: An image of the macOS "Connect to Server" dialog box, showing the SMB hostname typed into the "Server Address" box, an empty list of "Favorite Servers", and the Connect button highlighted in blue.
 ```
 
@@ -39,7 +39,7 @@ You will be prompted for your RC username and password. Type in the required inf
 
 Mounting on Windows is a little more involved than on a Mac or Linux system. First, ensure you are connected to the CU VPN. Navigate to `This PC` and click on `Computer` -> `Add a network location`.
 
-```{image} ./images_and_html/smb1.png
+```{image} ../images_and_html/smb1.png
 :alt: An image of the "This PC" window in the Windows File Explorer. The "Computer" tab at the top is highlighted, showing the button "Add a network location", among other options.
 ```
 
@@ -49,7 +49,7 @@ This will bring up a setup utility. Continue through the prompt, selecting `Choo
 ```
 And click `next`.
 
-```{image} ./images_and_html/smb2.png
+```{image} ../images_and_html/smb2.png
 :alt: An image of the "Add Network Location" wizard in Windows, with the SMB hostname typed into the box labeled "Internet or network address:", and the "Next" button highlighted at the bottom-right of the window, next to the "Cancel" button.
 ```
 
@@ -60,7 +60,7 @@ Username: AD\<your-rc-username>
 Password: <your-rc-password>
 ```
 
-```{image} ./images_and_html/smb3.png
+```{image} ../images_and_html/smb3.png
 :alt: An image of the "Enter network credentials" dialog box in Windows, showing a username and password field, and "OK" and "Cancel" options.
 ```
 
@@ -89,14 +89,14 @@ Next install the sshfs graphical user interface (GUI) frontend. [see installatio
 
 Once both applications are installed, run the application `sshfs-win manager`. A window will pop up showing you a list of all sshfs connections you have saved. 
 
-```{image} ./images_and_html/sshfsmenu.png
+```{image} ../images_and_html/sshfsmenu.png
 :alt: An image of the "SSHFS-Win Manager" application on Windows, showing an empty list of servers, a button in the top-right to "Add connection", and buttons in the bottom-right for "Settings" and "About". The "Edit mode" and "Delete mode" buttons below "Add connection" are greyed out and unavailable.
 ```
 
 
 Click on `Add a connection`. This will bring up a menu outlining the parameters for your mount. Give the connection a name and set the `IP/Host` to `dtn.rc.colorado.edu`. Add your RC username for `User` field and click the dropdown menu on `Password` and select: *Password (ask on connect)*. Lastly set `PATH` to `/pl/active/<your-petalibrary-space>` and select a drive letter.
 
-```{image} ./images_and_html/sshfs.png
+```{image} ../images_and_html/sshfs.png
 :alt: An image of the "Add Connection" dialog box in the SSHFS-Win Manager application for Windows. The "Basic" tab is selected, and the "Advanced" tab is not open. Input boxes for "Name", "IP/Host", "Port", "User", "Authentication Method", "Path", and "Drive Letter" are shown, with "Cancel" and "Save" buttons in the bottom-right.
 ```
 
