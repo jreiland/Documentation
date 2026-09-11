@@ -71,7 +71,7 @@ Password: <your-rc-password>
 
 Use of `sshfs` provides an alternate solution for mounting your Petalibrary allocation to a local machine. Like SMB you will need to be connected to CU's internal network to access this utility. The `sshfs` utility is primarily supported on Unix-based operating systems, but can be run on a Windows operating system with a bit more effort. 
 
-### `sshfs` on Mac
+### sshfs on Mac
 Enabling `sshfs` on Mac is done by installing the fuse and the sshfs packages. To install the packages simply download both [from the macFuse homepage and follow the provided install instructions.](https://osxfuse.github.io/)
 
 After installing both simply open a terminal and navigate to your desired mount location. Create a directory to be your mountpoint and run the command 
