@@ -30,7 +30,7 @@ smb://<RC-provided-hostname>/<your-pl-allocation>
 ```
 
 ```{image} ../images_and_html/smbmac2.png
-:alt: An image of the macOS "Connect to Server" dialog box, showing the SMB hostname typed into the "Server Address" box, an empty list of "Favorite Servers", and the Connect button highlighted in blue.
+:alt: An image of the macOS "Connect to Server" dialog box, showing the SMB hostname typed into the "Server Address" box, an empty list of "Favorite Servers", and the Connect button highlighted in blue. The example SMB hostname is "smb://pl-enc04.rc.int.colorado.edu/rcops_samba".
 ```
 
 You will be prompted for your RC username and password. Type in the required information and click `Connect`. Accept your Duo notification and your PetaLibrary Allocation will be mounted. 
