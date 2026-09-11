@@ -97,7 +97,7 @@ Once both applications are installed, run the application `sshfs-win manager`. A
 Click on `Add a connection`. This will bring up a menu outlining the parameters for your mount. Give the connection a name and set the `IP/Host` to `dtn.rc.colorado.edu`. Add your RC username for `User` field and click the dropdown menu on `Password` and select: *Password (ask on connect)*. Lastly set `PATH` to `/pl/active/<your-petalibrary-space>` and select a drive letter.
 
 ```{image} ../images_and_html/sshfs.png
-:alt: An image of the "Add Connection" dialog box in the SSHFS-Win Manager application for Windows. The "Basic" tab is selected, and the "Advanced" tab is not open. Input boxes for "Name", "IP/Host", "Port", "User", "Authentication Method", "Path", and "Drive Letter" are shown, with "Cancel" and "Save" buttons in the bottom-right.
+:alt: An image of the "Add Connection" dialog box in the SSHFS-Win Manager application for Windows. The "Basic" tab is selected, and the "Advanced" tab is not open. Input boxes for "Name", "IP/Host", "Port", "User", "Authentication Method", "Path", and "Drive Letter" are shown, with "Cancel" and "Save" buttons in the bottom-right. Suggested values for the input boxes are provided in the section "sshfs on Windows". 
 ```
 
 
