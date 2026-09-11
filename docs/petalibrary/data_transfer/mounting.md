@@ -82,7 +82,7 @@ sshfs <your-rc-username>@dtn.rc.colorado.edu:/pl/active/<your-pl-directory> <loc
 
 You will be prompted for your password after execution. Type your password and accept the duo prompt. Your selected directory will now be mounted to your Petalibrary allocation.
 
-### `sshfs` on Windows
+### sshfs on Windows
 Enabling `sshfs` on Windows requires the installation of 2 applications. First install the application sshfs-win: [see installation instructions and files here.](https://github.com/billziss-gh/sshfs-win)
 
 Next install the sshfs graphical user interface (GUI) frontend. [see installation instructions and files here.](https://github.com/evsar3/sshfs-win-manager)
