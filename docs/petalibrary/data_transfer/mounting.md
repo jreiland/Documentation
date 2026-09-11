@@ -50,7 +50,7 @@ This will bring up a setup utility. Continue through the prompt, selecting `Choo
 And click `next`.
 
 ```{image} ../images_and_html/smb2.png
-:alt: An image of the "Add Network Location" wizard in Windows, with the SMB hostname typed into the box labeled "Internet or network address:", and the "Next" button highlighted at the bottom-right of the window, next to the "Cancel" button.
+:alt: An image of the "Add Network Location" wizard in Windows, with the SMB hostname typed into the box labeled "Internet or network address:", and the "Next" button highlighted at the bottom-right of the window, next to the "Cancel" button. The example SMB hostname is "\\pl-enc04.rc.int.colorado.edu\rcops_samba".
 ```
 
 Lastly you will be prompted to provide your credentials. Type your credentials as follows:
