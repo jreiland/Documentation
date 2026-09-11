@@ -121,7 +121,7 @@ cp new_file /projects/user1234/job/new_file
 ````{tab-item} curc-quota
 :sync: monitor-disk-usage-curc-quota
 
-### The `curc-quota` command
+### The curc-quota command
 Disk usage may be checked using the `curc-quota` command. When run
 from a login node or Alpine `compile node`, you will see output similar to:
 
