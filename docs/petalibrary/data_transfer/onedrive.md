@@ -40,7 +40,7 @@ Click the 2nd option in the Panel selection on the top right of the page to ente
 ### Step 4: Select files/folders from OneDrive to be transferred and initiate the transfer
 * In the left pane, select the file or folder you'd like to transfer and click Start - this will initiate a Globus Transfer job.
 
-```{image} ../images_and_html/Globus_Intitiate_Transfer_OneDrive.png
+```{image} ../images_and_html/Globus_Initiate_Transfer_OneDrive.png
 :alt: A closer view of the left side of the Split View in Globus, showing a folder selected, and a blue "Start" button in the middle to initiate data transfer to the location shown on the right side of the Split View. The right side is not visible in this image.
 ```
 
